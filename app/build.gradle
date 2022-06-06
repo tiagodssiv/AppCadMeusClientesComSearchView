@@ -1,0 +1,40 @@
+apply plugin: 'com.android.application'
+
+android {
+    compileSdkVersion 30
+    defaultConfig {
+        applicationId "app.modelo.meusclientes"
+        minSdkVersion 19
+        targetSdkVersion 30
+        versionCode 1
+        versionName "1.0"
+    }
+    buildTypes {
+        release {
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
+        }
+    }
+}
+
+dependencies {
+    implementation fileTree(dir: 'libs', include: ['*.jar'])
+    implementation 'androidx.appcompat:appcompat:1.2.0'
+    implementation 'com.google.android.material:material:1.2.1'
+    implementation 'androidx.constraintlayout:constraintlayout:2.0.4'
+    implementation 'com.github.rtoshiro.mflibrary:mflibrary:1.0.0'
+    implementation 'com.google.android.gms:play-services-maps:11.8.0'
+    implementation 'com.squareup.okhttp3:okhttp:3.8.0'
+    //noinspection GradleCompatible
+    implementation 'com.android.support:appcompat-v7:26.1.0'
+    //noinspection GradleCompatible
+
+    //noinspection GradleCompatible
+    implementation 'com.android.support:design:23.1.1'
+    //noinspection GradleCompatible,GradleCompatible
+    implementation'com.android.support:support-v4:23.1.1'
+    //noinspection GradleCompatible
+    implementation 'com.android.support:support-v4:28.1.0'
+    //noinspection GradleCompatible
+    implementation  'com.koushikdutta.ion:ion:2.+'
+}

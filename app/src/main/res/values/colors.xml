@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+ <!--   <color name="colorPrimary">#4CAF50</color>
+    <color name="colorPrimaryDark">#859F67</color>
+    <color name="colorAccent">#CAC3AE</color>-->
+    <color name="primaryColor">#e040fb</color>
+    <color name="primaryLightColor">#ff79ff</color>
+    <color name="primaryDarkColor">#aa00c7</color>
+    <color name="primaryTextColor">#FFFFFF</color>
+
+
+    <!-- cores do background das telas -->
+    <color name="vermelho">#6C1C16</color>
+    <color name="preto">#000000</color>
+    <color name="azul">#07487C</color>
+    <color name="campos">#E4D5A9</color>
+</resources>

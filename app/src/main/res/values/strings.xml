@@ -1,0 +1,30 @@
+<resources>
+    <string name="app_name">Meus Clientes</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Cliente</string>
+    <string name="nav_header_subtitle">Profº Marco Maddo</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Sair</string>
+    <string name="tela_alterar">Alterar Clientes</string>
+
+    <string name="modelo_fragment">Cliente VIP DEMO</string>
+    <string name="cad_clientes">Cadastrar Clientes</string>
+
+    <!-- Opções do Menu Lateral Drawer -->
+    <string name="fragmento_preto">Fragmento Preto</string>
+    <string name="titulo_preto">Preto</string>
+    <string name="fragmento_vermelho">Fragmento Vermelho</string>
+    <string name="titulo_vermelho">Vermelho</string>
+    <string name="fragmento_azul">Fragmento Azul</string>
+    <string name="titulo_azul">Azul</string>
+
+    <!-- Opções do Menu Principal -->
+    <string name="meu_perfil">Meu Perfil</string>
+    <string name="novoCliente">Cadastro de Clientes</string>
+    <string name="listar_clientes_fragment">Lista de Clientes</string>
+    <string name="list_clientes">Lista de clientes</string>
+    <string name="btn_editar">Editar</string>
+    <string name="busca_cliente">Buscar Cliente</string>
+
+</resources>
